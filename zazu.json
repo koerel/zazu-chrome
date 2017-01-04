@@ -9,7 +9,7 @@
         "type": "PrefixScript",
         "prefix": ",c",
         "icon": "src/assets/chrome.png",
-        "script": "src/open.js"
+        "script": "src/open.js",
         "connections": [
           "Open"
         ]
