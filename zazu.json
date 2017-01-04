@@ -8,6 +8,8 @@
         "id": "open-chrome",
         "type": "PrefixScript",
         "prefix": ",c",
+        "space": true,
+        "args": "Required",
         "icon": "src/assets/chrome.png",
         "script": "src/open.js",
         "connections": [2]
