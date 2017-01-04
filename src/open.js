@@ -3,8 +3,9 @@ module.exports = (pluginContext) => {
         return new Promise((resolve, reject) => {
             resolve([
             {
+                id: 1,
                 title: query,
-                value: query,
+                value: query,           
             }
             ])
         })
