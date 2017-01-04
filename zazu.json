@@ -10,14 +10,12 @@
         "prefix": ",c",
         "icon": "src/assets/chrome.png",
         "script": "src/open.js",
-        "connections": [
-          "Open"
-        ]
-      },
+        "connections": [2]
+      }
     ],
     "output": [
       {
-        "id": "Open",
+        "id": 2,
         "type": "OpenInBrowser",
         "url": "{value}"
       }
