@@ -7,7 +7,7 @@
       {
         "id": "open-chrome",
         "type": "PrefixScript",
-        "prefix": ",c",
+        "prefix": "chr",
         "space": true,
         "args": "Required",
         "icon": "src/assets/chrome.png",
