@@ -5,27 +5,21 @@
   "blocks": {
     "input": [
       {
-        "id": "template",
-        "type": "Keyword",
-        "keyword": "template",
-        "title": "Zazu Template",
-        "subtitle": "Goto Zazu Template GitHub Repo",
-        "icon": "fa-files-o",
+        "id": "open-chrome",
+        "type": "PrefixScript",
+        "prefix": ",c",
+        "icon": "src/assets/chrome.png",
+        "script": "src/open.js"
         "connections": [
-          "GoHome"
+          "Open"
         ]
       },
-      {
-        "id": "hello",
-        "type": "RootScript",
-        "script": "src/hello.js"
-      }
     ],
     "output": [
       {
-        "id": "GoHome",
+        "id": "Open",
         "type": "OpenInBrowser",
-        "url": "https://github.com/tinytacoteam/zazu-template"
+        "url": "{value}"
       }
     ]
   }
