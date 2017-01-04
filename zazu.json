@@ -19,7 +19,7 @@
       {
         "id": 2,
         "type": "OpenInBrowser",
-        "url": "google.be"
+        "url": "{value}"
       }
     ]
   }
